@@ -1,0 +1,34 @@
+# .gitignore
+
+# Database
+assets/
+
+# Logs
+data/
+
+# Build Files
+build/contracts
+build/
+env/
+
+# Python
+.pyc
+*.pyc
+.project
+.pydevproject
+__pycache__
+
+# Editors
+.vscode
+
+# Virtualenv
+.Python
+.Virtualenv
+.venv
+env
+
+
+src/qa/\.coverage
+
+*.log
+*.__pycache__
