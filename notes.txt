@@ -1,0 +1,46 @@
+# State variables 
+    - are permanently stored in contract storage. This means they're written to the Ethereum blockchain.
+    - contract Example {
+        // This will be stored permanently in the blockchain
+        uint myUnsignedInteger = 100;
+      }
+    
+# Strings
+    - are used for arbitrary-length UTF-8 data.
+
+# fixed arrays
+    - uint[2] fixedArray;
+
+# dynamic arrays
+    - uint[] dynamicArray;
+
+# private
+    - only other functions within our contract will be able to call this function.
+    - it's convention to start private function names with an underscore (_). 
+
+# public
+    - by default.
+    - functions you want to expose to the world.
+
+# view
+    - it doesn't change any values or write anything || only viewing the data but not modifying it.
+
+# pure
+    - doesn't read from the state of the app.
+    - its return value depends only on its function parameters.
+
+# keccak256
+    - hash function, a version of SHA3.
+    - maps an input into a random 256-bit hexidecimal number.
+    - expects a single parameter of type bytes && have to "pack" any parameters before calling.
+
+# event
+    -  a way for your contract to communicate that something happened on the blockchain to your app front-end.
+    - app front-end could then listen for the event.
+
+# Web3.js 
+    - javascript frontend that interacts with the contract.
+    - (https://cryptozombies.io/en/lesson/1/chapter/14) for code
+
+# 
+    
