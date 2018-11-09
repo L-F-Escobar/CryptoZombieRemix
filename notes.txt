@@ -157,3 +157,54 @@
 
 # keccak256
     - The best source of randomness in Solidity.
+
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------           Chapter Five Notes             ------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+
+# token
+    - a smart contract that follows some common rules.
+    - implements a standard set of functions that all other token contracts share.
+    - contract that keeps track of who owns how much of that token, and 
+      some functions so those users can transfer their tokens to other addresses.
+
+# library
+    - special type of contract in Solidity.
+    - attach functions to native data types.
+
+# comment style
+    - (https://cryptozombies.io/en/lesson/5/chapter/13)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
