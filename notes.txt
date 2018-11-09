@@ -24,6 +24,7 @@
 
 # view
     - it doesn't change any values or write anything || only viewing the data but not modifying it.
+    - don't cost gas when they're called externally by a user.
 
 # pure
     - doesn't read from the state of the app.
@@ -108,6 +109,24 @@
 ----------------------------------------------------------------------------------------------------------------
 
 
-# 
+# OpenZeppelin
+    - a library of secure and community-vetted smart contracts that you can use in your own DApps.
 
+# modifier (keyword)
+    - can attach the modifier's name at the end of a function definition to change that function's behavior.
+
+# gas
+    - users have to spend ETH in order to execute functions on your DApp.
+
+# struct packing
+    - using a smaller-sized uint when possible in structs saves eth.
+    - cluster identical data types together.
+
+# now (keyword)
+    - will return the current unix timestamp of the latest block.
+    - returns a uint256 by default.
+
+# seconds, minutes, hours, days, weeks, years (keywords)
+    - will convert to a uint of the number of seconds in that length of time.
+    - 1 minutes is 60, 1 hours is 3600, 1 days is 86400.
 
