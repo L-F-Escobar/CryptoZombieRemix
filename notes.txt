@@ -14,11 +14,11 @@
 # dynamic arrays
     - uint[] dynamicArray;
 
-# private
+# private (visibility for functions)
     - only other functions within our contract will be able to call this function.
     - it's convention to start private function names with an underscore (_). 
 
-# public
+# public (visibility for functions)
     - by default.
     - functions you want to expose to the world.
 
@@ -42,5 +42,72 @@
     - javascript frontend that interacts with the contract.
     - (https://cryptozombies.io/en/lesson/1/chapter/14) for code
 
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------            Chapter Two Notes             ------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+
+# accounts
+    - The Ethereum blockchain is made up of accounts, which you can think of like bank accounts.
+    - An account has a balance of Ether
+
+# address
+    - Each account has an address; kinf of like a bank account number.
+    - It's a unique identifier that points to that account.
+
+# mappings
+    - key-value store for storing and looking up data.
+    - example : mapping(key => value) mappingName;
+
+# msg.sender
+    - global variable available to all functions.
+    - refers to the address that called the current function.
+
+# require
+    - makes it so that the function will throw an error and stop executing if some condition is not true.
+
+# inheritance
+    - split your code logic across multiple contracts to organize the code.
+    -  That means if you compile and deploy a contract that inherits, you will have access to both.
+
+# ./
+    - import contract in the same directory as this contract
+    - example : import "./someothercontract.sol";
+
+# Explict declartion of **memory** and/or **storage** keywords.
+    - (https://cryptozombies.io/en/lesson/2/chapter/7)
+
+# storage
+    - variables stored permanently on the blockchain. 
+
+# memory
+    - variables are temporary, and are erased between external function calls to your contract.
+    - variables declared inside functions, will disappear when the function call ends.
+
+# state variables
+    - variables declared outside of function.
+    - by default storage and written permanently to the blockchain.
+
+# internal (visibility for functions)
+    - same as private, except that it's also accessible to contracts that inherit from this contract.
+
+# external (visibility for functions)
+    - similar to public, except that these functions can ONLY be called outside the contract.
+
+# interface
+    - for our contract to talk to another contract on the blockchain that we don't own.
+    - (https://cryptozombies.io/en/lesson/2/chapter/10)
+
+# Javascript implementation
+    - (https://cryptozombies.io/en/lesson/2/chapter/14)
+
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------           Chapter Three Notes            ------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+
 # 
-    
+
+
