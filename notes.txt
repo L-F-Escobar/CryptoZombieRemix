@@ -22,11 +22,14 @@
     - by default.
     - functions you want to expose to the world.
 
-# view
+# (state modifier)
+    - tells us how the function interacts with the BlockChain.
+
+# view (state modifier)
     - it doesn't change any values or write anything || only viewing the data but not modifying it.
     - don't cost gas when they're called externally by a user.
 
-# pure
+# pure (state modifier)
     - doesn't read from the state of the app.
     - its return value depends only on its function parameters.
 
@@ -130,3 +133,27 @@
     - will convert to a uint of the number of seconds in that length of time.
     - 1 minutes is 60, 1 hours is 3600, 1 days is 86400.
 
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------           Chapter Four Notes             ------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+
+# review
+    - (https://cryptozombies.io/en/lesson/4/chapter/1)
+
+# payable (modifier)
+    - function that can receive Ether.
+
+# msg.value
+    - built-in unit.
+    - way to see how much Ether was sent to the contract.
+    
+# transfer
+    - 
+
+# address(this).balance
+    - return the total balance stored on the contract.
+
+# keccak256
+    - The best source of randomness in Solidity.
