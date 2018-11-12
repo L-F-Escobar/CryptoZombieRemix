@@ -178,11 +178,37 @@
     - (https://cryptozombies.io/en/lesson/5/chapter/13)
 
 
+----------------------------------------------------------------------------------------------------------------
+----------------------------            Chapter Six Notes             ------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 
+# JSON-RPC
+    - language Ethereum nodes speak
 
+# to call a function on a smart contract, you need
+    - The address of the smart contract
+    - The function you want to call
+    - The variables you want to pass to that function.
 
+# Metamask
+    - injects their web3 provider into the browser in the global JavaScript object web3 
 
+# Web3.js will need 2 things to talk to your contract
+    - its address
+    - its ABI.
+
+# ABI
+    - Application Binary Interface. Basically it's a representation of your contracts' 
+      methods in JSON format that tells Web3.js how to format function calls.
+
+# call
+    - used for view and pure functions.
+    - won't create a transaction on the blockchain.
+
+# send
+    - create a transaction and change data on the blockchain. 
+    - will require the user to pay gas.
 
 
 
